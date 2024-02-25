@@ -33,19 +33,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <style>
-      /* Add any custom styles here */
-      .-height {
-          display: flex;
-          flex-wrap: wrap;
-      }
-      .equal-height .card {
-          flex: 1;
-          margin: 0.5rem;
-      }
-  </style>
-
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navigointi">
@@ -56,7 +44,7 @@
       id="navigointi"
     >
       <div class="container-fluid">
-        <a class="navbar-brand text-light mr-auto" href="#etusivu">
+        <a class="navbar-brand text-light mr-auto" href="index.html">
           <img src="img/logo.png" style="width: 50px" alt="logosta kuva" />
         </a>
         <button
@@ -81,9 +69,9 @@
               <a
                 data-toggle="collapse"
                 data-target=".navbar-collapse.show"
-                class="nav-link active text-light"
+                class="nav-link text-light"
                 aria-current="page"
-                href="#etusivu"
+                href="index.html#etusivu"
                 >Etusivu</a
               >
             </li>
@@ -93,12 +81,12 @@
                 data-target=".navbar-collapse.show"
                 class="nav-link text-light"
                 aria-current="page"
-                href="#palvelut"
+                href="index.html#palvelut"
                 >Palvelut</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" aria-current="page" href="#meista"
+              <a class="nav-link text-light" aria-current="page" href="index.html#meista"
                 >Meistä</a
               >
             </li>
@@ -106,7 +94,7 @@
               <a
                 class="nav-link text-light"
                 aria-current="page"
-                href="#yhteystiedot"
+                href="index.html#yhteystiedot"
                 >Yhteystiedot</a
               >
             </li>
@@ -115,45 +103,46 @@
       </div>
     </nav>
   <main>
-      <section class="text-light bg-mainColor" id="palvelut">
+      <section class="text-light bg-mainColor" id="laskutustiedot">
       
           <div class="container py-5 p-0 " >
               <div class="">
-                  <div class="row justify-content-center align-items-center g-2">
-                      <div class="col-lg-6   mb-4">
-                          <div class="card text-dark p-4 border-0 h-100">
-                              <div>
-                                  <h4 class="font-weight-normal fs-1">Verkkolaskut</h4>
-                              </div>
-                              <div class="card-body p-0  ">
-                                  <p class="fs-5">Olemme siirtyneet sähköiseen taloushallintoon ja otamme vastaan vain ensisijaisesti laskuja sähköisessä muodossa.</p>
-                                  <ul class="list-unstyled fs-5">
-                                      <li>Verkkolaskuosoite:</li>
-                                      <li>003733552768</li>
-                                      <li>Operaattoritunnus:</li>
-                                      <li>003721291126,</li>
-                                      <li>Välittäjä Maventa</li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
+                  <div class="row  g-1">
+                      <div class="col-sm-6   mb-4">
+                        <div class="card text-dark p-4  ">
+                            <div class="card-body p-0  ">
+                              <h4 class="font-weight-normal card-title mb-3  fs-1">Verkkolaskut</h4>
+                              <div class="card-text">
 
-                      <div class="col-lg-6  mb-4">
+                                <p class="fs-5">Olemme siirtyneet sähköiseen taloushallintoon ja otamme vastaan vain ensisijaisesti laskuja sähköisessä muodossa.</p>
+                                <ul class="list-unstyled fs-5 mt-4">
+                                  <li>Verkkolaskuosoite:</li>
+                                  <li>003733552768</li>
+                                  <li>Operaattoritunnus:</li>
+                                  <li>003721291126</li>
+                                  <li>Välittäjä Maventa</li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="col-sm-6  mb-4">
                           <div class="card text-dark p-4 border-0 h-100">
                               <div>
-                                  <h4 class="font-weight-normal fs-1">Paperilaskut</h4>
+                                  <h4 class="font-weight-normal mb-3 fs-1 ">Paperilaskut</h4>
                               </div>
                               <div class="card-body p-0 ">
-                                  <p class="fs-5">Ekopalvelut Lahti & Rantanen Oy</p>
+                                  <p class="fs-5 tex">Ekopalvelut Lahti & Rantanen Oy</p>
                                   <ul class="list-unstyled fs-5">
-                                      <li>33552768:</li>
+                                      <li>33552768</li>
                                       <li>PL 100</li>
                                       <li>80020 Kollector Scan</li>
                                   </ul>
                               </div>
                               <h4 class="fs-3 "> Sähköpostiosoite PDF-laskuille</h4>
-                              <p class="p-0 m-0">sähköpostitse:</p>
-                              <p class="p-0 m-0"> invoice-33552768(@)kollektor.fi</p>
+                              <p class="p-0 fs-5 m-0">sähköpostitse:</p>
+                              <p class="p-0 fs-5 m-0"> invoice-33552768@kollektor.fi</p>
                               
                           </div>
                       </div>
@@ -176,7 +165,7 @@
                 data-toggle="collapse"
                 class="nav-link text-light"
                 aria-current="page"
-                href="#etusivu"
+                href="index.html#etusivu"
                 >Etusivu</a
               >
             </li>
@@ -185,12 +174,12 @@
                 data-toggle="collapse"
                 class="nav-link text-light"
                 aria-current="page"
-                href="#palvelut"
+                href="index.html#palvelut"
                 >Palvelut</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" aria-current="page" href="#meista"
+              <a class="nav-link text-light" aria-current="page" href="index.html#meista"
                 >Meistä</a
               >
             </li>
@@ -198,8 +187,16 @@
               <a
                 class="nav-link text-light"
                 aria-current="page"
-                href="#yhteystiedot"
+                href="index.html#yhteystiedot"
                 >Yhteystiedot</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="#verkkolaskutiedot"
+                >Laskutustiedot</a
               >
             </li>
           </ul>

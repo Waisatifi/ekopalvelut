@@ -1,7 +1,7 @@
 :root {
   /*
-        :root sisältää käytetyt värit nettisivulla muuttujissa, jotta värien muuttaminen on helppoa
-    */
+  :root sisältää käytetyt värit nettisivulla muuttujissa, jotta värien muuttaminen on helppoa
+  */
   --main-color: #1b2023;
   /* --secondary-color: #f2f2f2;
   --accent-color: #f2f2f2; */
@@ -12,11 +12,16 @@
   --text-color-25: #3d3d3d;
   --font-family: "Oleo Script", cursive;
 }
-
+.card {
+  height: 100%;
+}
+#testi {
+  
+  color: white;
+}
 .bg-mainColor {
   background-color: var(--main-color);
 }
-
 .main-font-family {
   font-family: var(--font-family) !important;
 }
