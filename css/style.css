@@ -15,10 +15,7 @@
 .card {
   height: 100%;
 }
-#testi {
-  
-  color: white;
-}
+
 .bg-mainColor {
   background-color: var(--main-color);
 }
